@@ -1,5 +1,5 @@
 ## **Problem**
-Write a solution to find employees who have the highest salary in each of the departments.
+Write a solution to find employees who have the highest salary in each of the departments.<br>
 <br>
 
 ## **Tables**
