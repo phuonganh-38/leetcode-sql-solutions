@@ -5,10 +5,10 @@ A company's executives are interested in seeing who earns the most money in each
 Write a solution to find the employees who are high earners in each of the departments.
 <br>
 
-*Requirement: No holes in ranking even though there are 2 equal ranks.*
+*Requirement: No holes in ranking even though there are 2 equal ranks.*<br>
 <br>
 
-## Tables
+## **Tables**
 `Employee`
 | id | name  | salary | departmentId |
 |----|-------|--------|--------------|
@@ -28,7 +28,7 @@ Write a solution to find the employees who are high earners in each of the depar
 | 2  | Sales |
 <br>
 
- ## Solution
+ ## **Solution**
  ```sql
  WITH ranks AS (
     SELECT d.name AS Department,
