@@ -1,5 +1,8 @@
-**Problem**: Write a solution to find employees who have the highest salary in each of the departments.
----
+## **Problem**
+Write a solution to find employees who have the highest salary in each of the departments.
+<br>
+
+## **Tables**
   Table `Employee`
 | Column Name  | Type    |
 |--------------|---------|
@@ -14,8 +17,9 @@ Table `Department`
 |-------------|---------|
 | id          | int     |
 | name        | varchar |
+<br>
 
-Solution:
+ ## **Solution**
 ```sql
 SELECT Department.name AS Department,
        e1.name AS Employee,
