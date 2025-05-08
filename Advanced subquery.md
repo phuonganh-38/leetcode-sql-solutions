@@ -20,6 +20,7 @@ Explanation:
 | 7           | 4           | 2019-08-09 | 2019-08-09                   |
 <br>
 
+
 ## **Solution**
 ```sql
 SELECT ROUND(SUM(CASE
